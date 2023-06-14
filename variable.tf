@@ -3,8 +3,8 @@ variable "project_id" {
   description = "The Project ID"
   default = "fiery-outpost-381205"
 }
-variable "subnetwork-region" {
-  default = "sub-tf-1"
+variable "region" {
+  default = "sub-tf"
 }
 
 variable "network" {
